@@ -1,0 +1,45 @@
+<!-- Ejercicio Práctico: Generador de Números Pares
+Descripción del Problema:
+Desarrolla una aplicación web que genere números aleatorios y compruebe si son pares.
+Si el número generado es par, deberá mostrarlo en verde; de lo contrario, deberá mostrar
+un mensaje de error en rojo indicando que el número generado no es par.
+
+Requisitos:
+La aplicación debe tener un botón que, al hacer clic, generará un número aleatorio.
+Se debe utilizar una promesa para generar el número aleatorio.
+Si el número generado es par, debe mostrarse en verde.
+Si el número generado no es par, debe mostrarse un mensaje de error en rojo.
+El número aleatorio debe generarse con un retraso de 3 segundos después de hacer clic en 
+el botón.
+
+Código Base:
+Se proporciona el código HTML y JavaScript básico para iniciar el desarrollo. Deberás 
+completar la función generateRandomNumber() para que devuelva una promesa que resuelva 
+con un número par aleatorio o rechace con un mensaje de error si el número no es par.
+Además, deberás manejar la lógica para mostrar el número generado o el mensaje de error
+en la lista de resultados. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Example</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1 class="h1">Promesas asíncronas de ejemplo</h1>
+  
+    <!-- Botón para ejecutar el script -->
+    <button class="btn" id="generateButton">Generar Número Par</button>
+  
+    <ul id="resultList" class="ul">
+        <!-- Aquí se imprimirán los resultados y los errores -->
+        
+    </ul>
+
+    <script src="JS/main.js">
+        
+    </script>
+</body>
+</html>
